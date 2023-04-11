@@ -1,0 +1,43 @@
+/* Write your code here. */
+@media all and (min-width: 768px) {
+  .background-container {
+    background-color: #0f172a;
+    height: 100vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    font-family: "Roboto";
+    color: #f8fafc;
+    font-size: 40px;
+  }
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .background-container {
+    background-color: #0f172a;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    font-family: "Roboto";
+    color: #f8fafc;
+    font-size: 30px;
+  }
+  .img {
+    height: 120px;
+    width: 120px;
+  }
+}
